@@ -1,14 +1,14 @@
-import { Container, Title, Content, MessageArea } from './styles';
+import { Container, Title, Content, MessageArea, Message } from './styles';
 
 export function Dashboard() {
   return (
     <Container>
       <Title>Chat board</Title>
       <Content>
-        <article></article>
+        <Message></Message>
         <MessageArea>
-          <input type="text" />
-          <button type="submit"></button>
+          <input type="text" placeholder="Escreva uma mensagem..." />
+          <button type="submit">Enviar</button>
         </MessageArea>
       </Content>
     </Container>
